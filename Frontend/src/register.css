@@ -1,0 +1,64 @@
+body {
+  background-color: #222; /* Dark black background */
+  color: #fff; /* White text color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+ 
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  width: 600px; /* 50% larger than previous size */
+  padding: 60px; /* 50% larger padding for consistency */
+  border: 1px solid #4b0082; /* Dark purple border */
+  border-radius: 8px;
+  background-color: #333; /* Dark purple background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Dark box shadow */
+}
+
+.form-group {
+  margin-bottom: 24px; /* Adjusted margin for better alignment */
+}
+
+label {
+  display: block;
+  margin-bottom: 18px; /* 50% larger margin */
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  
+  padding: 18px; /* 50% larger padding */
+  border: 1px solid #4b0082; /* Dark purple border */
+  border-radius: 6px;
+  background-color: #444; /* Dark purple background */
+  color: #fff; /* White text color */
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-bottom: 10px; /* Added margin-bottom for spacing */
+  box-sizing: border-box; /* Ensure padding and border included in width calculation */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #9400d3; /* Lighter purple border on focus */
+  padding: 20px; /* Increased padding for focus effect */
+  margin-bottom: 14px; /* Adjusted margin-bottom for focus effect */
+}
+
+button {
+  width: 100%;
+  padding: 18px 0; /* 50% larger padding */
+  background-color: #9400d3; /* Lighter purple background */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a0dad; /* Darker purple background on hover */
+}
